@@ -1,5 +1,11 @@
 package in.dibya.repo;
 
-public interface EnqStatusRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import in.dibya.entity.EnqStatusEntity;
+
+
+
+public interface EnqStatusRepo extends JpaRepository<EnqStatusEntity,Integer> {
 
 }

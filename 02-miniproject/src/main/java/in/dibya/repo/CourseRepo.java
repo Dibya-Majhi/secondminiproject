@@ -1,5 +1,9 @@
 package in.dibya.repo;
 
-public interface CourseRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import in.dibya.entity.CourseEntity;
+
+public interface CourseRepo extends JpaRepository<CourseEntity,Integer> {
 
 }
